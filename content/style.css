@@ -7,6 +7,10 @@ body{
 header{
   background-color: #ffb400;
 }
+main{
+  background-color: black;
+  overflow: hidden;
+}
 div.header{
   display: flex;
   justify-content: space-evenly;
@@ -19,12 +23,20 @@ header img{
   margin-top: 25px;
 
 }
-
-p{
+aside img{
+  max-width: 700px;
+}
+aside.fotoel{
+  text-align: right;
+}
+article.sobreel{
+  color: white;
+}
+header p{
   font-family: 'Millard Titulo';
-  max-width: 450px;
+  max-width: 500px;
   letter-spacing: 1px;
-  font-size: 25px;
+  font-size: 35px;
 }
 
 header nav{
@@ -49,6 +61,11 @@ header nav ul li.home{
 header nav ul li a{
   text-decoration: none;
   color:black;
+}
+
+footer{
+  background-color: #ffb400;
+  overflow: hidden;
 }
 /*Fuentes*/
 @font-face{
