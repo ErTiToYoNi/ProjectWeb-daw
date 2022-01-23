@@ -20,7 +20,7 @@ div.header{
 header img{
   max-width: 600px;
   margin-bottom: 25px;
-  margin-top: 25px;
+  margin-top: 50px;
 
 }
 aside img{
@@ -38,12 +38,18 @@ header p{
   letter-spacing: 1px;
   font-size: 35px;
 }
-
-header nav{
+header div.menu{
   display: flex;
-  justify-content: flex-start;
-
 }
+header nav.start{
+  flex: 8;
+  margin-left: 50px;
+}
+header nav.end{
+  justify-content: flex-end;
+  margin-right: 85px;
+}
+
 
 header nav ul{
   display: flex;
