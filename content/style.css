@@ -1,4 +1,11 @@
-/* || General setup */
+/*body*/
+
+body{
+  margin: 0;
+  padding: 0;
+}
+
+/*Fuentes*/
 @font-face{
   font-family: 'Millard Titulo';
   src: url('fonts/millar1.otf');
