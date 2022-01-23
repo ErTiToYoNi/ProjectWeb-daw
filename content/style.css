@@ -6,6 +6,7 @@ body{
 }
 header{
   background-color: #ffb400;
+  overflow: hidden;
 }
 main{
   background-color: black;
