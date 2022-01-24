@@ -5,45 +5,10 @@ body{
   padding: 0;
   font-family: 'Millard Titulo';
 }
+/* header */
 header{
   background-color: #ffb400;
   overflow: hidden;
-}
-main{
-  background-color: black;
-  overflow: hidden;
-}
-div.header article{
-  display: flex;
-  max-width: 30%;
-}
-div.header aside{
-  display: flex;
-  max-width: 70%;
-}
-div.header h1{
-  
-}
-article h1{
-  text-align: center;  
-}
-div.header{
-  display: flex;
-  justify-content: space-evenly;
-  align-items:center;
-}
-
-header img{
-  max-width: 600px;
-  margin-bottom: 25px;
-  margin-top: 50px;
-
-}
-aside img{
-  max-width: 700px;
-}
-aside.fotoel{
-  text-align: right;
 }
 
 header p{
@@ -58,22 +23,26 @@ header div.menu{
   
 }
 
-header nav.start{
-  margin-left: 50px;
+div.header article{
+  display: flex;
+  max-width: 30%;
 }
 
-header nav.end{
-  margin-right: 85px;
+div.header aside{
+  display: flex;
+  max-width: 70%;
 }
 
-article.sobreel h2{
-  text-align: center;
+div.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
 }
 
-div.sobreel article {
-  max-width: 400px;
-  font-size: 30px;
-  color: white;
+header img{
+  max-width: 600px;
+  margin-bottom: 25px;
+  margin-top: 50px;
 }
 
 header nav ul{
@@ -93,11 +62,53 @@ header nav ul li a{
   text-decoration: none;
   color:black;
 }
+/*  
+header nav.start{
+  margin-left: 50px;
+}
+
+header nav.end{
+  margin-right: 85px;
+}
+*/
+
+main{
+  background-color: black;
+  overflow: hidden;
+}
+
+
+article h1{
+  text-align: center;  
+}
+
+aside img{
+  max-width: 700px;
+}
+aside.fotoel{
+  text-align: right;
+}
+
+
+
+
+article.sobreel h2{
+  text-align: center;
+}
+
+div.sobreel article {
+  max-width: 400px;
+  font-size: 30px;
+  color: white;
+}
+
+
 
 footer{
   background-color: #ffb400;
   overflow: hidden;
 }
+
 /*Fuentes*/
 @font-face{
   font-family: 'Millard Titulo';
