@@ -1,5 +1,7 @@
 /*body*/
-
+*{
+  box-sizing: border-box;
+}
 body{
   margin: 0 auto;
   padding: 0;
@@ -20,7 +22,8 @@ header p{
 header div.menu{
   display: flex;
   justify-content: space-between;
-  
+  margin-bottom: 15px;
+  padding: 0 5%;
 }
 
 div.header article{
@@ -37,12 +40,6 @@ div.header{
   display: flex;
   justify-content: space-evenly;
   align-items:center;
-}
-
-header img{
-  max-width: 600px;
-  margin-bottom: 25px;
-  margin-top: 50px;
 }
 
 header nav ul{
@@ -62,21 +59,14 @@ header nav ul li a{
   text-decoration: none;
   color:black;
 }
-/*  
-header nav.start{
-  margin-left: 50px;
-}
 
-header nav.end{
-  margin-right: 85px;
-}
-*/
+/* main */
 
 main{
   background-color: black;
   overflow: hidden;
+  padding: 0 5%;
 }
-
 
 article h1{
   text-align: center;  
@@ -85,12 +75,10 @@ article h1{
 aside img{
   max-width: 700px;
 }
+
 aside.fotoel{
   text-align: right;
 }
-
-
-
 
 article.sobreel h2{
   text-align: center;
@@ -102,7 +90,7 @@ div.sobreel article {
   color: white;
 }
 
-
+/* Footer */
 
 footer{
   background-color: #ffb400;
