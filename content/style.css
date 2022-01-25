@@ -22,24 +22,29 @@ header p{
 header div.menu{
   display: flex;
   justify-content: space-between;
+  padding:0 5%;
   margin-bottom: 15px;
-  padding: 0 5%;
 }
 
 div.header article{
   display: flex;
-  max-width: 30%;
+  max-width: 40%;
+  margin-right: 100px;
+  padding-left: 70px;
 }
 
 div.header aside{
   display: flex;
-  max-width: 70%;
+  max-width: 60%;
+  flex-basis: 60%;
+  
 }
 
 div.header{
   display: flex;
   justify-content: space-evenly;
   align-items:center;
+  margin : 0 40px 40px 40px;
 }
 
 header nav ul{
@@ -66,11 +71,12 @@ main{
   background-color: black;
   color:white;
   overflow: hidden;
-  padding: 0 5%;
+  padding: 0 0 0 5%;
 }
 div.capitulos{
   display: flex;
   justify-content: space-between;
+  margin:0px;
 }
 main div.capitulos article{
   max-width: 40%;
@@ -79,9 +85,18 @@ main div.capitulos article{
 main div.capitulos aside{
   max-width: 60%;
   flex:2 60%;
+  background-color: #ffb400;
+  color: black;
+}
+h3{
+  text-align: left;
+}
+div.capitulos aside div{
+  text-align: center;
 }
 
 h1{
+  margin:0;
   text-align: center;  
   font-size: 50px;
 }
