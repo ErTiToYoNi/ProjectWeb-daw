@@ -56,6 +56,10 @@ nav ul li{
   list-style: none;
   font-family: "Millard Escritos";
 }
+nav.end ul li a:hover{
+  text-decoration: underline;
+}
+
 header nav ul li.home{
   font-family: 'Millard Titulo';
 }
@@ -87,19 +91,39 @@ main div.capitulos aside{
   flex:2 55%;
   color: black;
 }
+
 h3{
   text-align: left;
 }
+
 div.capitulos aside div{
   padding-top:2% ;
 }
 div.capitulos{
   align-items: center;
 }
+
 h1{
   margin:0;
   text-align: center;  
   font-size: 50px;
+}
+div.mostrartodo{
+  margin-top: 60px;
+  text-align: center;
+  font-size: 25px
+}
+div.mostrartodo a{
+  border: 2px solid white;
+  text-decoration: none;
+  color:white;
+  background-color: black;
+  border-radius: 5px;
+  padding: 10px;
+}
+div.mostrartodo a:hover{
+  color: black;
+  background-color:white;
 }
 div.pistas ul img{
   max-width: 25px;
