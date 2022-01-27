@@ -16,6 +16,7 @@ body{
 header{
   background-color: #ffb400;
   overflow: hidden;
+  border-radius: 0 0 5% 5%;
 }
 
 /* Header menu */
@@ -54,7 +55,7 @@ div.header{
 header p{
   letter-spacing: 1px;
   font-size: 35px;
-  text-align: justify;
+  text-align: center;
 }
 div.header article{
   max-width: 40%;
@@ -68,17 +69,16 @@ div.header aside{
 
 /* Main */
 main{
-  background-color: black;
-  color:white;
   overflow: hidden;
   padding: 0 0 0 0;
-  
+  background-color: black;
+  color:white;  
 }
+
 h1{
   text-align: center;  
   font-size: 50px;
 }
-
 /* Capitulos */
 div.capitulos{
   display: flex;
@@ -99,7 +99,50 @@ main div.capitulos aside{
 div.capitulos aside div.pistas{
   padding-top:2% ;
 }
+/* Fielset */
 
+form{
+  margin: 100px 0 320px 0;
+}
+form div.flexfieldset{
+  display: flex;
+  justify-content: space-around;
+}
+
+form div{
+  display: flex;
+  align-items: center;
+}
+fieldset{
+  max-width: 500px;
+  border-radius: 10px;
+}
+form div label{
+  min-width: 150px;
+  padding-bottom: 18px;
+  margin-left: 2px;
+}
+form div input{
+  padding: 5px;
+  margin-bottom: 15px;
+  width: 300px;
+}
+div.edad{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 130px ;
+}
+div.edad fieldset {
+  text-align: center;
+}
+button{
+  background-color: #ffb400;
+  border-radius: 5px;
+  border-style: hidden;
+  margin-top: 5px;
+  padding: 10px;
+  font-family: "Millard Escritos";
+}
 /* Botones */
 div.mostrartodo{
   margin-top: 60px;
@@ -154,15 +197,34 @@ footer div.total{
   justify-content:space-between;
   margin-right: 10%;
 }
-
+footer div nav ul{
+  display: flex;
+  justify-content: center;
+}
 h4{
   padding-left:60px ;
   text-align: center;
 }
-
-footer div nav ul{
+/* Posts */
+aside.tracks{
+  margin-left: 100px;
+  padding-top:5% ;
+  max-width: 55%;
+  flex:2 55%;
+  color: black;
+}
+table{
+  color: white;
+}
+div.post{
   display: flex;
-  justify-content: center;
+  margin-bottom:50px;
+  justify-content: space-around;
+}
+div.boton div.mostrartodo{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
 }
 
 /*Fuentes*/
