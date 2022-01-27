@@ -1,71 +1,69 @@
-/*body*/
 *{
   box-sizing: border-box;
 }
+html{
+  background-color: black;
+}
+/*body*/
+
 body{
   margin: 0 auto;
   padding: 0;
   font-family: 'Millard Titulo';
 }
+
 /* header */
 header{
   background-color: #ffb400;
   overflow: hidden;
 }
 
+/* Header menu */
 header div.menu{
   display: flex;
   justify-content: space-between;
   padding:0 5%;
   margin-bottom: 15px;
 }
-/* Header menu */
 header nav ul{
   display: flex;
 }
-
 nav ul li{
   margin-left: 35px;
   list-style: none;
   font-family: "Millard Escritos";
 }
+header nav ul li.home{
+  font-family: 'Millard Titulo';
+}
+a{
+  text-decoration: none;
+  color:black;
+}
 nav.end ul li a:hover{
   text-decoration: underline;
 }
 
-header nav ul li.home{
-  font-family: 'Millard Titulo';
-}
-nav ul li a{
-  text-decoration: none;
-  color:black;
-}
-
 /* Header  article and aside */
-div.header article{
-  display: flex;
-  max-width: 40%;
-  margin-right: 100px;
-  padding-left: 70px;
-}
-
-header p{
-  letter-spacing: 1px;
-  font-size: 35px;
-  text-align: justify;
-}
-
-div.header aside{
-  display: flex;
-  max-width: 60%;
-  flex-basis: 60%;
-}
-
 div.header{
   display: flex;
   justify-content: space-evenly;
   align-items:center;
   margin : 0 82px 40px 82px;
+}
+header p{
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-align: justify;
+}
+div.header article{
+  max-width: 40%;
+  margin-right: 100px;
+  padding-left: 70px;
+}
+div.header aside{
+  max-width: 60%;
+  flex-basis: 50%;
 }
 
 /* Main */
@@ -74,18 +72,19 @@ main{
   color:white;
   overflow: hidden;
   padding: 0 0 0 0;
+  
 }
-
 h1{
-  margin:0;
   text-align: center;  
   font-size: 50px;
 }
+
 /* Capitulos */
 div.capitulos{
   display: flex;
   justify-content: space-between;
   margin:0px;
+  align-items: center;
 }
 main div.capitulos article{
   max-width: 45%;
@@ -97,14 +96,11 @@ main div.capitulos aside{
   flex:2 55%;
   color: black;
 }
-
-div.capitulos aside div{
+div.capitulos aside div.pistas{
   padding-top:2% ;
 }
-div.capitulos{
-  align-items: center;
-}
 
+/* Botones */
 div.mostrartodo{
   margin-top: 60px;
   text-align: center;
@@ -122,16 +118,13 @@ div.mostrartodo a:hover{
   color: black;
   background-color:white;
 }
-div.pistas ul img{
-  max-width: 25px;
-}
 
 /* Sobre el */
 div.sobreel{
   display: flex;
   margin:4% 10% 4% 4%;
   justify-content: space-between;
-  
+  text-align: center;
 }
 div.sobreel aside{
   max-width: 60%;
@@ -139,31 +132,19 @@ div.sobreel aside{
 div.sobreel aside img{
   max-width: 600px;
 }
-
 div.sobreel article {
   max-width: 40%;
   font-size: 30px;
 }
-div.sobreel p{
-  text-align: center;
-}
-h2{
-  text-align: center;
-}
+
 /* Footer */
 footer{
   background-color: #ffb400;
   overflow: hidden;
   font-family: "Millard Escritos";
+  border-radius: 15% 15% 0 0;
 }
 
-footer div.footer nav ul{
-  display: flex;
-  justify-content:flex-start;
-}
-h4{
-  text-align: center;
-}
 footer img{
   max-width: 30px;
 }
@@ -173,21 +154,12 @@ footer div.total{
   justify-content:space-between;
   margin-right: 10%;
 }
-footer div.social{
-  max-width: 33%;
-  justify-content: flex-start;
+
+h4{
+  padding-left:60px ;
+  text-align: center;
 }
-footer div.menu{
-  max-width: 33%;
-  justify-content: center;
-}
-footer div.menu ul{
-  padding: 0;
-  text-align: left;
-}
-footer div.social h4{
-  padding-left:55px ;
-}
+
 footer div nav ul{
   display: flex;
   justify-content: center;
