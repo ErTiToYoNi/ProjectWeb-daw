@@ -154,6 +154,43 @@ h2{
 footer{
   background-color: #ffb400;
   overflow: hidden;
+  font-family: "Millard Escritos";
+}
+
+footer div.footer nav ul{
+  display: flex;
+  justify-content:flex-start;
+}
+h4{
+  text-align: center;
+}
+footer img{
+  max-width: 30px;
+}
+footer div.total{
+  display: flex;
+  max-width: 100%;
+  justify-content: space-between;
+}
+footer div.social{
+  display: flex;
+  max-width: 33%;
+  justify-content: flex-start;
+}
+footer div.menu{
+  display: flex;
+  max-width: 33%;
+}
+footer div.menu ul{
+  padding: 0;
+  text-align: left;
+}
+footer div.social h4{
+  padding-left:55px ;
+}
+footer div nav ul{
+  display: flex;
+  justify-content: center;
 }
 
 /*Fuentes*/
