@@ -13,40 +13,13 @@ header{
   overflow: hidden;
 }
 
-header p{
-  letter-spacing: 1px;
-  font-size: 35px;
-  text-align: justify;
-}
-
 header div.menu{
   display: flex;
   justify-content: space-between;
   padding:0 5%;
   margin-bottom: 15px;
 }
-
-div.header article{
-  display: flex;
-  max-width: 40%;
-  margin-right: 100px;
-  padding-left: 70px;
-}
-
-div.header aside{
-  display: flex;
-  max-width: 60%;
-  flex-basis: 60%;
-  
-}
-
-div.header{
-  display: flex;
-  justify-content: space-evenly;
-  align-items:center;
-  margin : 0 40px 40px 40px;
-}
-
+/* Header menu */
 header nav ul{
   display: flex;
 }
@@ -68,14 +41,47 @@ nav ul li a{
   color:black;
 }
 
-/* main */
+/* Header  article and aside */
+div.header article{
+  display: flex;
+  max-width: 40%;
+  margin-right: 100px;
+  padding-left: 70px;
+}
 
+header p{
+  letter-spacing: 1px;
+  font-size: 35px;
+  text-align: justify;
+}
+
+div.header aside{
+  display: flex;
+  max-width: 60%;
+  flex-basis: 60%;
+}
+
+div.header{
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  margin : 0 82px 40px 82px;
+}
+
+/* Main */
 main{
   background-color: black;
   color:white;
   overflow: hidden;
   padding: 0 0 0 0;
 }
+
+h1{
+  margin:0;
+  text-align: center;  
+  font-size: 50px;
+}
+/* Capitulos */
 div.capitulos{
   display: flex;
   justify-content: space-between;
@@ -92,10 +98,6 @@ main div.capitulos aside{
   color: black;
 }
 
-h3{
-  text-align: left;
-}
-
 div.capitulos aside div{
   padding-top:2% ;
 }
@@ -103,11 +105,6 @@ div.capitulos{
   align-items: center;
 }
 
-h1{
-  margin:0;
-  text-align: center;  
-  font-size: 50px;
-}
 div.mostrartodo{
   margin-top: 60px;
   text-align: center;
@@ -128,18 +125,31 @@ div.mostrartodo a:hover{
 div.pistas ul img{
   max-width: 25px;
 }
-aside img{
-  max-width: 700px;
-}
 
+/* Sobre el */
+div.sobreel{
+  display: flex;
+  margin:4% 10% 4% 4%;
+  justify-content: space-between;
+}
+div.sobreel aside{
+  max-width: 60%;
+}
+div.sobreel aside img{
+  max-width: 600px;
+}
 
 div.sobreel article {
-  max-width: 400px;
+  max-width: 40%;
   font-size: 30px;
 }
-
+div.sobreel p{
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
 /* Footer */
-
 footer{
   background-color: #ffb400;
   overflow: hidden;
