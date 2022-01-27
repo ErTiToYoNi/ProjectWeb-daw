@@ -167,19 +167,19 @@ h4{
 footer img{
   max-width: 30px;
 }
+
 footer div.total{
   display: flex;
-  max-width: 100%;
-  justify-content: space-between;
+  justify-content:space-between;
+  margin-right: 10%;
 }
 footer div.social{
-  display: flex;
   max-width: 33%;
   justify-content: flex-start;
 }
 footer div.menu{
-  display: flex;
   max-width: 33%;
+  justify-content: center;
 }
 footer div.menu ul{
   padding: 0;
