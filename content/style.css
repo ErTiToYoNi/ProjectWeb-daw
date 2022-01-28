@@ -73,6 +73,7 @@ main{
   padding: 0 0 0 0;
   background-color: black;
   color:white;  
+  margin-bottom: 20px;
 }
 
 h1{
@@ -96,13 +97,46 @@ main div.capitulos aside{
   flex:2 55%;
   color: black;
 }
-div.capitulos aside div.pistas{
+div.pistas{
   padding-top:2% ;
 }
+/* Posts */
+aside.tracks{
+  margin-left: 100px;
+  padding-top:5% ;
+  max-width: 55%;
+  flex:2 55%;
+  color: black;
+}
+
+div.post{
+  display: flex;
+  margin-bottom:50px;
+  justify-content: space-around;
+}
+div.boton div.mostrartodo{
+    display: flex;
+    justify-content: center;
+    max-width: 80%;
+}
+/* table */
+article.table{
+  max-width: 45%;
+  margin:80px 50px 0 0;
+}
+table{
+  color: white; 
+  border: 2px solid white;
+  border-radius: 10px;
+}
+th.titulo{
+  border-bottom:2px solid white ;
+}
+
 /* Fielset */
 
 form{
-  margin: 100px 0 320px 0;
+  margin-top: 100px;
 }
 form div.flexfieldset{
   display: flex;
@@ -181,11 +215,13 @@ div.sobreel article {
 }
 
 /* Footer */
+
 footer{
   background-color: #ffb400;
   overflow: hidden;
   font-family: "Millard Escritos";
   border-radius: 15% 15% 0 0;
+  flex: 0;
 }
 
 footer img{
@@ -204,27 +240,6 @@ footer div nav ul{
 h4{
   padding-left:60px ;
   text-align: center;
-}
-/* Posts */
-aside.tracks{
-  margin-left: 100px;
-  padding-top:5% ;
-  max-width: 55%;
-  flex:2 55%;
-  color: black;
-}
-table{
-  color: white;
-}
-div.post{
-  display: flex;
-  margin-bottom:50px;
-  justify-content: space-around;
-}
-div.boton div.mostrartodo{
-    display: flex;
-    justify-content: center;
-    max-width: 80%;
 }
 
 /*Fuentes*/
