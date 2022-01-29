@@ -144,7 +144,18 @@ th.titulo{
 tr a{
   color: white;
 }
+/* BLOG */
+div.galeria{
+  margin: 5% 18%;
+}
+div.galeria div{
+  display: flex;
+}
 
+.galeria img{
+  max-width: 300px;
+  margin: 2px;
+}
 /* Fielset */
 
 form{
@@ -226,7 +237,11 @@ div.sobreel article {
   max-width: 40%;
   font-size: 30px;
 }
-
+h1.title{
+  background-color:#ffb400 ;
+  border-radius: 200px;
+  color: black;
+}
 /* ABOUT US  */
 div.about{
   font-family: "Millard Escritos";
