@@ -75,7 +75,6 @@ main{
   padding: 0 0 0 0;
   background-color: black;
   color:white;  
-
   flex: 1 1 auto;
 }
 
@@ -130,11 +129,20 @@ article.table{
 table{
   color: white; 
   border: 2px solid white;
-  
+  margin-bottom: 50px;
   border-radius: 10px;
 }
 th.titulo{
   border-bottom:2px solid white ;
+}
+
+.days th:hover,a:hover{
+  background-color:#ffb400;
+  border-radius: 5px;
+  color:black;
+}
+tr a{
+  color: white;
 }
 
 /* Fielset */
@@ -155,6 +163,7 @@ fieldset{
   max-width: 500px;
   border-radius: 10px;
 }
+
 form div label{
   min-width: 150px;
   padding-bottom: 18px;
@@ -197,7 +206,7 @@ div.mostrartodo a{
 }
 div.mostrartodo a:hover{
   color: black;
-  background-color:white;
+  background-color:#ffb400;
 }
 
 /* Sobre el */
