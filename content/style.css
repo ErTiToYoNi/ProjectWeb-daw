@@ -1,13 +1,26 @@
-*{
+/*Fuentes*/
+@font-face {
+  font-family: 'Millard Titulo';
+  src: url('fonts/millar1.otf');
+}
+
+@font-face {
+  font-family: 'Millard Escritos';
+  src: url('fonts/millar2.otf');
+}
+
+* {
   box-sizing: border-box;
 }
-html{
+
+html {
   background-color: black;
   height: 100%;
 }
+
 /*body*/
 
-body{
+body {
   height: 100%;
   margin: 0 auto;
   padding: 0;
@@ -15,185 +28,213 @@ body{
 }
 
 /* header */
-header{
+header {
   background-color: #ffb400;
   overflow: hidden;
   border-radius: 0 0 5% 5%;
 }
 
 /* Header menu */
-header div.menu{
+header div.menu {
   display: flex;
   justify-content: space-between;
-  padding:0 5%;
+  padding: 0 5%;
   margin-bottom: 15px;
 }
-header nav ul{
+
+header nav ul {
   display: flex;
 }
-nav ul li{
+
+nav ul li {
   margin-left: 35px;
   list-style: none;
   font-family: "Millard Escritos";
 }
-header nav ul li.home{
+
+header nav ul li.home {
   font-family: 'Millard Titulo';
 }
-a{
+
+a {
   text-decoration: none;
-  color:black;
+  color: black;
 }
-nav.end ul li a:hover{
+
+nav.end ul li a:hover {
   text-decoration: underline;
 }
 
 /* Header  article and aside */
-div.header{
+div.header {
   display: flex;
   justify-content: space-evenly;
-  align-items:center;
-  margin : 0 82px 40px 82px;
+  align-items: center;
+  margin: 0 82px 40px 82px;
 }
-header p{
+
+header p {
   letter-spacing: 1px;
   font-size: 35px;
   text-align: center;
 }
-div.header article{
+
+div.header article {
   max-width: 40%;
   margin-right: 100px;
   padding-left: 70px;
 }
-div.header aside{
+
+div.header aside {
   max-width: 60%;
   flex-basis: 50%;
 }
 
 /* Main */
-main{
+main {
   overflow: hidden;
   padding: 0 0 0 0;
   background-color: black;
-  color:white;  
+  color: white;
   flex: 1 1 auto;
 }
 
-h1{
-  text-align: center;  
+h1 {
+  text-align: center;
   font-size: 50px;
 }
+
 /* Capitulos */
-div.capitulos{
+div.capitulos {
   display: flex;
   justify-content: space-between;
-  margin:0px;
+  margin: 0px;
   align-items: center;
 }
-main div.capitulos article{
+
+main div.capitulos article {
   max-width: 45%;
   flex: 1 45%;
 }
-main div.capitulos aside{
-  padding-top:5% ;
+
+main div.capitulos aside {
+  padding-top: 5%;
   max-width: 55%;
-  flex:2 55%;
-  color: black;
-}
-div.pistas{
-  padding-top:2% ;
-}
-/* Posts */
-aside.tracks{
-  margin-left: 100px;
-  padding-top:5% ;
-  max-width: 55%;
-  flex:2 55%;
+  flex: 2 55%;
   color: black;
 }
 
-div.post{
+div.pistas {
+  padding-top: 2%;
+}
+
+/* Posts */
+aside.tracks {
+  margin-left: 100px;
+  padding-top: 5%;
+  max-width: 55%;
+  flex: 2 55%;
+  color: black;
+}
+
+div.post {
   display: flex;
-  margin-bottom:50px;
+  margin-bottom: 50px;
   justify-content: space-around;
 }
-div.boton div.mostrartodo{
-    display: flex;
-    justify-content: center;
-    max-width: 80%;
+
+div.boton div.mostrartodo {
+  display: flex;
+  justify-content: center;
+  max-width: 80%;
 }
+
 /* table */
-article.table{
+article.table {
   max-width: 45%;
-  margin:80px 50px 0 0;
+  margin: 80px 50px 0 0;
 }
-table{
-  color: white; 
+
+table {
+  color: white;
   border: 2px solid white;
   margin-bottom: 50px;
   border-radius: 10px;
 }
-th.titulo{
-  border-bottom:2px solid white ;
+
+th.titulo {
+  border-bottom: 2px solid white;
 }
 
-.days th:hover,a:hover{
-  background-color:#ffb400;
+.days th:hover, a:hover {
+  background-color: #ffb400;
   border-radius: 5px;
-  color:black;
+  color: black;
 }
-tr a{
+
+tr a {
   color: white;
 }
-/* BLOG */
-div.galeria{
-  margin: 5% 18%;
+
+/* Gallery */
+
+div.galeria {
+  margin: 5% 15%;
 }
-div.galeria div{
+
+div.galeria div {
   display: flex;
 }
 
-.galeria img{
+.galeria img {
   max-width: 300px;
   margin: 2px;
 }
-/* Fielset */
 
-form{
+/* FORM */
+
+form {
   margin-top: 100px;
 }
-form div.flexfieldset{
+
+form div.flexfieldset {
   display: flex;
   justify-content: space-around;
 }
 
-form div{
+form div {
   display: flex;
   align-items: center;
 }
-fieldset{
+
+fieldset {
   max-width: 500px;
   border-radius: 10px;
 }
 
-form div label{
+form div label {
   min-width: 150px;
   padding-bottom: 18px;
   margin-left: 2px;
 }
-form div input{
+
+form div input {
   padding: 5px;
   margin-bottom: 15px;
   width: 300px;
 }
-div.edad{
+
+div.edad {
   display: flex;
   justify-content: space-around;
-  margin-top: 130px ;
+  margin-top: 130px;
 }
+
 div.edad fieldset {
   text-align: center;
 }
-button{
+
+button {
   background-color: #ffb400;
   border-radius: 5px;
   border-style: hidden;
@@ -201,49 +242,51 @@ button{
   padding: 10px;
   font-family: "Millard Escritos";
 }
+
 /* Botones */
-div.mostrartodo{
+div.mostrartodo {
   margin-top: 60px;
   text-align: center;
   font-size: 25px
 }
-div.mostrartodo a{
+
+div.mostrartodo a {
   border: 2px solid white;
   text-decoration: none;
-  color:white;
+  color: white;
   background-color: black;
   border-radius: 5px;
   padding: 10px;
 }
-div.mostrartodo a:hover{
+
+div.mostrartodo a:hover {
   color: black;
-  background-color:#ffb400;
+  background-color: #ffb400;
 }
 
 /* Sobre el */
-div.sobreel{
+div.sobreel {
   display: flex;
-  margin:4% 10% 4% 4%;
+  margin: 4% 10% 4% 4%;
   justify-content: space-between;
   text-align: center;
 }
-div.sobreel aside{
+
+div.sobreel aside {
   max-width: 60%;
 }
-div.sobreel aside img{
+
+div.sobreel aside img {
   max-width: 600px;
 }
+
 div.sobreel article {
   max-width: 40%;
   font-size: 30px;
 }
-h1.title{
-  background-color:#ffb400 ;
-  border-radius: 200px;
-  color: black;
-}
+
 /* ABOUT US  */
-div.about{
+div.about {
   font-family: "Millard Escritos";
   display: flex;
   justify-content: space-evenly;
@@ -251,23 +294,26 @@ div.about{
   margin: 80px;
 }
 
-div.about aside{
+div.about aside {
   max-width: 40%;
 }
-div.about img{
+
+div.about img {
   max-width: 30%;
 }
-div.about img.foto{
+
+div.about img.foto {
   max-width: 40%;
 }
+
 /* Footer */
 div.mainfooter {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-  }
+}
 
-footer{
+footer {
   background-color: #ffb400;
   overflow: hidden;
   font-family: "Millard Escritos";
@@ -275,31 +321,22 @@ footer{
   flex: 0;
 }
 
-footer img{
+footer img {
   max-width: 30px;
 }
 
-footer div.total{
+footer div.total {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   margin-right: 10%;
 }
-footer div nav ul{
+
+footer div nav ul {
   display: flex;
   justify-content: center;
 }
-h4{
-  padding-left:60px ;
+
+h4 {
+  padding-left: 60px;
   text-align: center;
-}
-
-/*Fuentes*/
-@font-face{
-  font-family: 'Millard Titulo';
-  src: url('fonts/millar1.otf');
-}
-
-@font-face{
-  font-family: 'Millard Escritos';
-  src: url('fonts/millar2.otf');
 }
